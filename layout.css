@@ -1,0 +1,99 @@
+*{
+    font-family: 'Times New Roman', 'PingFang TC', 'Heiti TC', '微軟正黑體', sans-serif;
+}
+body{
+    margin:0;
+    background-color: #fff;
+}
+header{
+    padding:10px;
+}
+.blueee{
+    color: #337cb8;
+    text-shadow: 2px 2px 1px #a3c3df;
+}
+.orangeee{
+    color: #ff6a00;
+    text-shadow: 1px 1px 1px #ffbb8a;
+}
+.blackkk{
+    color: #444;
+    text-shadow: 1px 1px 1px #a3c3df;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.font-size-mid{
+    font-size: 20px;
+}
+
+
+
+.l-main-header{
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-nav1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.main-nav2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-right: 100px;
+}
+.main-nav3{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin-right: 50px;
+}
+.l-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.btn{
+    width:120px;
+    height:55px;
+    font-size: 18px;
+    background-color: #337cb8;
+    border:#a3c3df 2px solid;
+    border-radius: 6px;
+    font-weight: bolder;
+    color: #ffffff;
+    transition: all .5s;
+    margin-left: 10px;
+}
+.btn:hover{
+    width:120px;
+    height:55px;
+    font-size: 18px;
+    background-color: #ff6a00;
+    border:#ffbb8a 2px solid;
+    border-radius: 6px;
+    font-weight: bolder;
+    color: #ffffff;
+    margin-left: 10px;
+}

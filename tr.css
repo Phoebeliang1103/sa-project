@@ -1,0 +1,9 @@
+.tr-container{
+    margin: 0px 70px 100px 70px;
+}
+.tr-box-content{
+    display:grid;
+    grid-template-rows:100px 200px ;
+    justify-content: center;
+    align-items: start;
+    }
